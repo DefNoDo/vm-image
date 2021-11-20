@@ -1,0 +1,3 @@
+[submodule "deps/go9p"]
+	path = deps/go9p
+	url = git@github.com:knusbaum/go9p.git
