@@ -10,6 +10,7 @@ jobs:
   build:
     runs-on: macos-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Build images
         run: ./scripts/build_images.sh
       - name: Build VM
